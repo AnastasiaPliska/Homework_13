@@ -25,7 +25,7 @@ def get_posts_by_tag(data, tag):
     return results
 
 
-def add_post(post, filename):
+def add_post(filename, post):
     data = read_json(filename)
     data.append(post)
 
